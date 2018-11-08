@@ -9,7 +9,7 @@ void setup() {
 }
 
 void draw() 
-{);
+{background(12,12,12);
 }
 
 void mouseDragged()
