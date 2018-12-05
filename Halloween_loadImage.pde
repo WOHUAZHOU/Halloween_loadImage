@@ -3,7 +3,7 @@ PImage img;
 
 void setup() {
 size(800, 500);
-img = loadImage("pumpkins-1.png");
+img = loadImage("pumpkins.png");
 image(img, 0, 0);
 }
 
