@@ -3,9 +3,8 @@ PImage img;
 int a= blendColor(get(mouseX,mouseY),color(255, 200, 25),OVERLAY);
 void setup(){
   size(1000,500);
-  noLoop();
   img=loadImage("pumpkins.png");
-
+  noLoop();
 }
 void draw(){
   image(img,0,0,1000,500);
