@@ -4,10 +4,10 @@ int a= blendColor(get(mouseX,mouseY),color(255, 200, 25),OVERLAY);
 void setup(){
   size(1000,500);
   img=loadImage("pumpkins.png");
-  background(img);
 }
 void draw(){
   image(img,0,0,1000,500);
+  background(img);
 }
   
 void  mouseDragged(){ 
